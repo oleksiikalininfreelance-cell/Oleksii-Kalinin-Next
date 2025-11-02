@@ -56,7 +56,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><!--This is the head section-->\n<style>\n  @keyframes spin-clockwise {\n  from { transform: rotate(0deg); }\n  to { transform: rotate(360deg); }\n  }\n</style>\n<meta name="viewport" content="width=device-width, initial-scale=1.0"><noscript>',
+                '</noscript><!--This is the head section-->\n<style>\n  @keyframes spin-clockwise {\n  from { transform: rotate(0deg); }\n  to { transform: rotate(360deg); }\n  }\n</style>\n<meta name="viewport" content="width=device-width, initial-scale=1.0">\n<meta name="google-site-verification" content="UdWyN6GwB_yASf9qgU2n9T2U6ccRKZqXRGwU6vDBrY4" /><noscript>',
             }}
           ></noscript>
         </Head>
