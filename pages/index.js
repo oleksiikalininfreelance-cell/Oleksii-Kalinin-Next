@@ -1,34 +1,9 @@
 import React from 'react'
 import Head from 'next/head'
-import Head from 'next/head';
 
 import { useTranslations } from 'next-intl'
 
-export default function Home() {
-  return (
-    <>
-      {/* ===== ПРЕВ'Ю ДЛЯ UPWORK ===== */}
-      <Head>
-        <title>Oleksii Kalinin | Low-Code Developer Ukraine</title>
-        <meta name="description" content="Figma → TeleportHQ → Live in 2-4 hours. Upwork & Fiverr freelance." />
-        
-        {/* Open Graph — прев’ю */}
-        <meta property="og:title" content="Oleksii Kalinin — Low-Code Developer" />
-        <meta property="og:description" content="Fast landing pages with TeleportHQ, Stripe, SEO." />
-        <meta property="og:image" content="https://oleksii-kalinin-landing.vercel.app/thumbnail.jpg" />
-        <meta property="og:url" content="https://oleksii-kalinin-landing.vercel.app" />
-        <meta property="og:type" content="website" />
-      </Head>
 
-      {/* Твій контент */}
-      <main>
-        <h1>Oleksii Kalinin</h1>
-        <p>Low-Code Developer from Kharkiv, Ukraine</p>
-        {/* ... решта ... */}
-      </main>
-    </>
-  );
-}
 const Home = (props) => {
   return (
     <>
